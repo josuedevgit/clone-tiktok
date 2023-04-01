@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react'
+import VideoFooter from './components/footer/VideoFooter'
 import "./video.css"
 
 function Video() {
@@ -28,6 +29,7 @@ function Video() {
             onClick={handdleStart}
             loop
         ></video>
+        <VideoFooter />
     </div>
   )
 }
